@@ -1,7 +1,7 @@
 <?php
 function calculateDiscount($price, $discount) {
     // Checks if the arguments are numeric values
-    if (!is_numeric($price) || !is_numeric($discount)) { // Used guarded clauses and negated conditions for a more readable conditions. 
+    if (!is_numeric($price) || !is_numeric($discount)) { // Used guarded clauses and negated conditions for more readability. 
         echo "Error: Price and discount must be numeric values.\n";
         return null;
     }
