@@ -16,6 +16,7 @@
   ?>
 
   <!-- Form for user input -->
+  <!-- Action uses PHP_SELF so the form submits back to the same page -->
   <form method="post" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
     <label for="name">Enter your name:</label>
     <input type="text" id="name" name="name" required>
